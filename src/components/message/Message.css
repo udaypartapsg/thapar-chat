@@ -1,0 +1,56 @@
+.message {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  padding: 5px 15px;
+}
+
+.message:hover {
+  background-color: #f3f3f3bd;
+}
+
+.message__left .MuiAvatar-root {
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.message__left {
+  margin-right: 15px;
+}
+
+.message__details a {
+  margin-right: 10px;
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.message__text {
+  font-size: 15px;
+}
+
+.message__data {
+  display: flex;
+  align-items: center;
+  flex: 0.7;
+}
+
+.message__actions {
+  visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 0.3;
+}
+
+.message__actions__show {
+  visibility: visible;
+}
+
+.message__actions .MuiSvgIcon-root {
+  margin-right: 10px;
+  cursor: pointer;
+}
